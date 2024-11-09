@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery</title>
+    <link rel="stylesheet" href="food.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Food Delivery</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" id="home-btn">Home</a></li>
+                <li><a href="#" id="about-btn">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about-section" class="hidden">
+        <h2>About the App</h2>
+        <p>Welcome to our Food Delivery app! We connect you with the best restaurants around, offering a seamless ordering experience.</p>
+    </section>
+
+    <!-- Restaurant List Section -->
+    <section class="restaurant-list">
+        <h2>Choose Your Restaurant</h2>
+        <div class="restaurant">
+            <img src="res 1.jpeg" alt="Restaurant 1">
+            <h3>Restaurant 1</h3>
+            <p>Delicious food just a click away!</p>
+            <a href="#" class="order-btn">Order Now</a>
+
+            <!-- Menu Section -->
+            <div class="menu">
+                <h4>Menu</h4>
+                <ul>
+                    <li>
+                        <img src="pizza.jpeg" alt="Pizza">
+                        Pizza - $10 
+                        <button>Add to Cart</button>
+                    </li>
+                    <li>
+                        <img src="burger.jpeg" alt="Burger">
+                        Burger - $8 
+                        <button>Add to Cart</button>
+                    </li>
+                    <li>
+                        <img src="pasta.jpg" alt="Pasta">
+                        Pasta - $12 
+                        <button>Add to Cart</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="restaurant">
+            <img src="2.jpeg"Restaurant 2">
+            <h3>Restaurant 2</h3>
+            <p>Enjoy the best meals in town.</p>
+            <a href="#" class="order-btn">Order Now</a>
+
+            <!-- Menu Section -->
+            <div class="menu">
+                <h4>Menu</h4>
+                <ul>
+                    <li>
+                        <img src="sushi.jpeg" alt="Sushi">
+                        Sushi - $15 
+                        <button>Add to Cart</button>
+                    </li>
+                    <li>
+                        <img src="res 3.jpeg" alt="Ramen">
+                        Ramen - $12 
+                        <button>Add to Cart</button>
+                    </li>
+                    <li>
+                        <img src="tempura.jpeg" alt="Tempura">
+                        Tempura - $14 
+                        <button>Add to Cart</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="restaurant">
+            <img src="3.jpeg" alt="Restaurant 3">
+            <h3>Restaurant 3</h3>
+            <p>Fresh food delivered fast.</p>
+            <a href="#" class="order-btn">Order Now</a>
+
+            <!-- Menu Section -->
+            <div class="menu">
+                <h4>Menu</h4>
+                <ul>
+                    <li>
+                        <img src="steak.jpeg" alt="Steak">
+                        Steak - $20 
+                        <button>Add to Cart</button>
+                    </li>
+                    <li>
+                        <img src="salad.jpeg" alt="Salad">
+                        Salad - $7 
+                        <button>Add to Cart</button>
+                    </li>
+                    <li>
+                        <img src="res 2.jpeg" alt="Chicken">
+                        Chicken - $15 
+                        <button>Add to Cart</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rating Section -->
+    <section class="rating-section">
+        <h2>Rate Us</h2>
+        <form>
+            <label for="rating">Rate the App:</label>
+            <select id="rating" name="rating">
+                <option value="5">5 - Excellent</option>
+                <option value="4">4 - Good</option>
+                <option value="3">3 - Average</option>
+                <option value="2">2 - Poor</option>
+                <option value="1">1 - Terrible</option>
+            </select>
+            <button type="submit">Submit Rating</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Food Delivery. All rights reserved.</p>
+    </footer>
+
+    <script src="food.js"></script>
+</body>
+</html>
